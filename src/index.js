@@ -16,7 +16,9 @@
 //     job: 'Desarrollar paginas web'
 // }).then(console.log);
 
-CRUD.actualizarUsuario(1,{
-    name: 'Engelber Amaya',
-    job: 'Desarrollar paginas web con JavaScript'
-}).then(console.log);
+// CRUD.actualizarUsuario(1,{
+//     name: 'Engelber Amaya',
+//     job: 'Desarrollar paginas web con JavaScript'
+// }).then(console.log);
+
+CRUD.borrarUsuario(11).then(console.log);
