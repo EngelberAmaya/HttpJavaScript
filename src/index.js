@@ -7,11 +7,16 @@
 
 //init();
 
-import * as CRUD from './js/crud-provider';
+ import * as CRUD from './js/crud-provider';
 
-CRUD.getUsuario(1).then(console.log);
+ //CRUD.getUsuario(1).then(console.log);
 
-CRUD.crearUsuario({
-    name: 'Engelber',
-    job: 'Desarrollar paginas web'
+// CRUD.crearUsuario({
+//     name: 'Engelber',
+//     job: 'Desarrollar paginas web'
+// }).then(console.log);
+
+CRUD.actualizarUsuario(1,{
+    name: 'Engelber Amaya',
+    job: 'Desarrollar paginas web con JavaScript'
 }).then(console.log);
