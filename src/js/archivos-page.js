@@ -1,4 +1,4 @@
-//import { subirImagen } from './http-provider';
+import { subirImagen } from './http-provider';
 
 const body = document.body;
 let inputFile, imgFoto;
@@ -34,7 +34,7 @@ const eventos = () => {
 
         const file = event.target.files[0];
          console.log(file);
-        //subirImagen( file ).then( url => imgFoto.src = url );
+        subirImagen( file ).then( url => imgFoto.src = url );
 
     });
 

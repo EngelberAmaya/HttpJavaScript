@@ -1,8 +1,14 @@
-# Webpack Starter
+# Http JavaScript
 
-Este es el proyecto inicial para crear aplicaciones utilizando webpack.
+ Peticiones HTTP y subida de archivos.
 
 ### Notas:
+
+Correr la aplicación
+```
+npm start
+```
+
 Recuerden reconstruir los módulos de Node
 ```
 npm install
